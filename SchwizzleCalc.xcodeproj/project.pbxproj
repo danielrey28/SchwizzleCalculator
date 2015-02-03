@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B6537718F5A1AE00AF6142 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52B6537618F5A1AE00AF6142 /* logo.png */; };
+		52B6538018F7733300AF6142 /* SchwizzleCalcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6537F18F7733300AF6142 /* SchwizzleCalcTableViewController.m */; };
+		52CFBD1218F1A86A00010B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD1118F1A86900010B07 /* Foundation.framework */; };
+		52CFBD1418F1A86A00010B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD1318F1A86A00010B07 /* CoreGraphics.framework */; };
+		52CFBD1618F1A86A00010B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD1518F1A86A00010B07 /* UIKit.framework */; };
+		52CFBD1C18F1A86A00010B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CFBD1A18F1A86A00010B07 /* InfoPlist.strings */; };
+		52CFBD1E18F1A86A00010B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD1D18F1A86A00010B07 /* main.m */; };
+		52CFBD2218F1A86A00010B07 /* SchwizzleCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD2118F1A86A00010B07 /* SchwizzleCalcAppDelegate.m */; };
+		52CFBD2518F1A86A00010B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CFBD2318F1A86A00010B07 /* Main.storyboard */; };
+		52CFBD2818F1A86A00010B07 /* SchwizzleCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD2718F1A86A00010B07 /* SchwizzleCalcViewController.m */; };
+		52CFBD2A18F1A86A00010B07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CFBD2918F1A86A00010B07 /* Images.xcassets */; };
+		52CFBD3118F1A86A00010B07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD3018F1A86A00010B07 /* XCTest.framework */; };
+		52CFBD3218F1A86A00010B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD1118F1A86900010B07 /* Foundation.framework */; };
+		52CFBD3318F1A86A00010B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD1518F1A86A00010B07 /* UIKit.framework */; };
+		52CFBD3B18F1A86A00010B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CFBD3918F1A86A00010B07 /* InfoPlist.strings */; };
+		52CFBD3D18F1A86A00010B07 /* SchwizzleCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CFBD3C18F1A86A00010B07 /* SchwizzleCalcTests.m */; };
+		52CFBD5118F1CB2F00010B07 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD4F18F1CB2F00010B07 /* libGoogleAdMobAds.a */; };
+		52CFBD5218F1CB2F00010B07 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52CFBD5018F1CB2F00010B07 /* README.txt */; };
+		52CFBD5518F1CDB900010B07 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5418F1CDB900010B07 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		52CFBD5718F1D09300010B07 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5618F1D09300010B07 /* CoreData.framework */; };
+		52CFBD5918F1D0D200010B07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5818F1D0D200010B07 /* AudioToolbox.framework */; };
+		52CFBD5B18F1D0F900010B07 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5A18F1D0F800010B07 /* MessageUI.framework */; };
+		52CFBD5D18F1D10800010B07 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5C18F1D10800010B07 /* SystemConfiguration.framework */; };
+		52CFBD6018F1D69000010B07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD5F18F1D69000010B07 /* AVFoundation.framework */; };
+		52CFBD6218F1D70E00010B07 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD6118F1D70E00010B07 /* StoreKit.framework */; };
+		52CFBD6418F1D7C300010B07 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFBD6318F1D7C300010B07 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52CFBD3418F1A86A00010B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CFBD0618F1A86900010B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CFBD0D18F1A86900010B07;
+			remoteInfo = SchwizzleCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B6537618F5A1AE00AF6142 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/logo.png; sourceTree = "<group>"; };
+		52B6537E18F7733300AF6142 /* SchwizzleCalcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchwizzleCalcTableViewController.h; sourceTree = "<group>"; };
+		52B6537F18F7733300AF6142 /* SchwizzleCalcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchwizzleCalcTableViewController.m; sourceTree = "<group>"; };
+		52CFBD0E18F1A86900010B07 /* SchwizzleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchwizzleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CFBD1118F1A86900010B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52CFBD1318F1A86A00010B07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52CFBD1518F1A86A00010B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52CFBD1918F1A86A00010B07 /* SchwizzleCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchwizzleCalc-Info.plist"; sourceTree = "<group>"; };
+		52CFBD1B18F1A86A00010B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52CFBD1D18F1A86A00010B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52CFBD1F18F1A86A00010B07 /* SchwizzleCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SchwizzleCalc-Prefix.pch"; sourceTree = "<group>"; };
+		52CFBD2018F1A86A00010B07 /* SchwizzleCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchwizzleCalcAppDelegate.h; sourceTree = "<group>"; };
+		52CFBD2118F1A86A00010B07 /* SchwizzleCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchwizzleCalcAppDelegate.m; sourceTree = "<group>"; };
+		52CFBD2418F1A86A00010B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52CFBD2618F1A86A00010B07 /* SchwizzleCalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchwizzleCalcViewController.h; sourceTree = "<group>"; };
+		52CFBD2718F1A86A00010B07 /* SchwizzleCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchwizzleCalcViewController.m; sourceTree = "<group>"; };
+		52CFBD2918F1A86A00010B07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52CFBD2F18F1A86A00010B07 /* SchwizzleCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchwizzleCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CFBD3018F1A86A00010B07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52CFBD3818F1A86A00010B07 /* SchwizzleCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchwizzleCalcTests-Info.plist"; sourceTree = "<group>"; };
+		52CFBD3A18F1A86A00010B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52CFBD3C18F1A86A00010B07 /* SchwizzleCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchwizzleCalcTests.m; sourceTree = "<group>"; };
+		52CFBD4618F1CB2F00010B07 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADAdMobExtras.h"; sourceTree = "<group>"; };
+		52CFBD4718F1CB2F00010B07 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADAdNetworkExtras.h"; sourceTree = "<group>"; };
+		52CFBD4818F1CB2F00010B07 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADAdSize.h"; sourceTree = "<group>"; };
+		52CFBD4918F1CB2F00010B07 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADBannerView.h"; sourceTree = "<group>"; };
+		52CFBD4A18F1CB2F00010B07 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADBannerViewDelegate.h"; sourceTree = "<group>"; };
+		52CFBD4B18F1CB2F00010B07 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADInterstitial.h"; sourceTree = "<group>"; };
+		52CFBD4C18F1CB2F00010B07 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADInterstitialDelegate.h"; sourceTree = "<group>"; };
+		52CFBD4D18F1CB2F00010B07 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADRequest.h"; sourceTree = "<group>"; };
+		52CFBD4E18F1CB2F00010B07 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/GADRequestError.h"; sourceTree = "<group>"; };
+		52CFBD4F18F1CB2F00010B07 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/libGoogleAdMobAds.a"; sourceTree = "<group>"; };
+		52CFBD5018F1CB2F00010B07 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "../../Downloads/GoogleAdMobAdsSdkiOS-6.8.0/README.txt"; sourceTree = "<group>"; };
+		52CFBD5418F1CDB900010B07 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		52CFBD5618F1D09300010B07 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52CFBD5818F1D0D200010B07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		52CFBD5A18F1D0F800010B07 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		52CFBD5C18F1D10800010B07 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52CFBD5E18F1D2FF00010B07 /* appID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appID.h; sourceTree = "<group>"; };
+		52CFBD5F18F1D69000010B07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		52CFBD6118F1D70E00010B07 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		52CFBD6318F1D7C300010B07 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CFBD0B18F1A86900010B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CFBD6418F1D7C300010B07 /* CoreTelephony.framework in Frameworks */,
+				52CFBD6218F1D70E00010B07 /* StoreKit.framework in Frameworks */,
+				52CFBD6018F1D69000010B07 /* AVFoundation.framework in Frameworks */,
+				52CFBD5D18F1D10800010B07 /* SystemConfiguration.framework in Frameworks */,
+				52CFBD5B18F1D0F900010B07 /* MessageUI.framework in Frameworks */,
+				52CFBD5918F1D0D200010B07 /* AudioToolbox.framework in Frameworks */,
+				52CFBD5718F1D09300010B07 /* CoreData.framework in Frameworks */,
+				52CFBD1618F1A86A00010B07 /* UIKit.framework in Frameworks */,
+				52CFBD1218F1A86A00010B07 /* Foundation.framework in Frameworks */,
+				52CFBD1418F1A86A00010B07 /* CoreGraphics.framework in Frameworks */,
+				52CFBD5518F1CDB900010B07 /* AdSupport.framework in Frameworks */,
+				52CFBD5118F1CB2F00010B07 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CFBD2C18F1A86A00010B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CFBD3118F1A86A00010B07 /* XCTest.framework in Frameworks */,
+				52CFBD3318F1A86A00010B07 /* UIKit.framework in Frameworks */,
+				52CFBD3218F1A86A00010B07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52CFBD0518F1A86900010B07 = {
+			isa = PBXGroup;
+			children = (
+				52CFBD5318F1CB4500010B07 /* GoogleAdMobAdsSDK */,
+				52CFBD1718F1A86A00010B07 /* SchwizzleCalc */,
+				52CFBD3618F1A86A00010B07 /* SchwizzleCalcTests */,
+				52CFBD1018F1A86900010B07 /* Frameworks */,
+				52CFBD0F18F1A86900010B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52CFBD0F18F1A86900010B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD0E18F1A86900010B07 /* SchwizzleCalc.app */,
+				52CFBD2F18F1A86A00010B07 /* SchwizzleCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CFBD1018F1A86900010B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD6318F1D7C300010B07 /* CoreTelephony.framework */,
+				52CFBD6118F1D70E00010B07 /* StoreKit.framework */,
+				52CFBD5F18F1D69000010B07 /* AVFoundation.framework */,
+				52CFBD5C18F1D10800010B07 /* SystemConfiguration.framework */,
+				52CFBD5A18F1D0F800010B07 /* MessageUI.framework */,
+				52CFBD5818F1D0D200010B07 /* AudioToolbox.framework */,
+				52CFBD5618F1D09300010B07 /* CoreData.framework */,
+				52CFBD5418F1CDB900010B07 /* AdSupport.framework */,
+				52CFBD1118F1A86900010B07 /* Foundation.framework */,
+				52CFBD1318F1A86A00010B07 /* CoreGraphics.framework */,
+				52CFBD1518F1A86A00010B07 /* UIKit.framework */,
+				52CFBD3018F1A86A00010B07 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52CFBD1718F1A86A00010B07 /* SchwizzleCalc */ = {
+			isa = PBXGroup;
+			children = (
+				52B6537618F5A1AE00AF6142 /* logo.png */,
+				52CFBD2018F1A86A00010B07 /* SchwizzleCalcAppDelegate.h */,
+				52CFBD2118F1A86A00010B07 /* SchwizzleCalcAppDelegate.m */,
+				52CFBD2318F1A86A00010B07 /* Main.storyboard */,
+				52CFBD2618F1A86A00010B07 /* SchwizzleCalcViewController.h */,
+				52CFBD2718F1A86A00010B07 /* SchwizzleCalcViewController.m */,
+				52CFBD2918F1A86A00010B07 /* Images.xcassets */,
+				52CFBD1818F1A86A00010B07 /* Supporting Files */,
+				52CFBD5E18F1D2FF00010B07 /* appID.h */,
+				52B6537E18F7733300AF6142 /* SchwizzleCalcTableViewController.h */,
+				52B6537F18F7733300AF6142 /* SchwizzleCalcTableViewController.m */,
+			);
+			path = SchwizzleCalc;
+			sourceTree = "<group>";
+		};
+		52CFBD1818F1A86A00010B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD1918F1A86A00010B07 /* SchwizzleCalc-Info.plist */,
+				52CFBD1A18F1A86A00010B07 /* InfoPlist.strings */,
+				52CFBD1D18F1A86A00010B07 /* main.m */,
+				52CFBD1F18F1A86A00010B07 /* SchwizzleCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CFBD3618F1A86A00010B07 /* SchwizzleCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD3C18F1A86A00010B07 /* SchwizzleCalcTests.m */,
+				52CFBD3718F1A86A00010B07 /* Supporting Files */,
+			);
+			path = SchwizzleCalcTests;
+			sourceTree = "<group>";
+		};
+		52CFBD3718F1A86A00010B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD3818F1A86A00010B07 /* SchwizzleCalcTests-Info.plist */,
+				52CFBD3918F1A86A00010B07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52CFBD5318F1CB4500010B07 /* GoogleAdMobAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				52CFBD4618F1CB2F00010B07 /* GADAdMobExtras.h */,
+				52CFBD4718F1CB2F00010B07 /* GADAdNetworkExtras.h */,
+				52CFBD4818F1CB2F00010B07 /* GADAdSize.h */,
+				52CFBD4918F1CB2F00010B07 /* GADBannerView.h */,
+				52CFBD4A18F1CB2F00010B07 /* GADBannerViewDelegate.h */,
+				52CFBD4B18F1CB2F00010B07 /* GADInterstitial.h */,
+				52CFBD4C18F1CB2F00010B07 /* GADInterstitialDelegate.h */,
+				52CFBD4D18F1CB2F00010B07 /* GADRequest.h */,
+				52CFBD4E18F1CB2F00010B07 /* GADRequestError.h */,
+				52CFBD4F18F1CB2F00010B07 /* libGoogleAdMobAds.a */,
+				52CFBD5018F1CB2F00010B07 /* README.txt */,
+			);
+			name = GoogleAdMobAdsSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52CFBD0D18F1A86900010B07 /* SchwizzleCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CFBD4018F1A86A00010B07 /* Build configuration list for PBXNativeTarget "SchwizzleCalc" */;
+			buildPhases = (
+				52CFBD0A18F1A86900010B07 /* Sources */,
+				52CFBD0B18F1A86900010B07 /* Frameworks */,
+				52CFBD0C18F1A86900010B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchwizzleCalc;
+			productName = SchwizzleCalc;
+			productReference = 52CFBD0E18F1A86900010B07 /* SchwizzleCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52CFBD2E18F1A86A00010B07 /* SchwizzleCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CFBD4318F1A86A00010B07 /* Build configuration list for PBXNativeTarget "SchwizzleCalcTests" */;
+			buildPhases = (
+				52CFBD2B18F1A86A00010B07 /* Sources */,
+				52CFBD2C18F1A86A00010B07 /* Frameworks */,
+				52CFBD2D18F1A86A00010B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52CFBD3518F1A86A00010B07 /* PBXTargetDependency */,
+			);
+			name = SchwizzleCalcTests;
+			productName = SchwizzleCalcTests;
+			productReference = 52CFBD2F18F1A86A00010B07 /* SchwizzleCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CFBD0618F1A86900010B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SchwizzleCalc;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SchwizzleApps;
+				TargetAttributes = {
+					52CFBD2E18F1A86A00010B07 = {
+						TestTargetID = 52CFBD0D18F1A86900010B07;
+					};
+				};
+			};
+			buildConfigurationList = 52CFBD0918F1A86900010B07 /* Build configuration list for PBXProject "SchwizzleCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52CFBD0518F1A86900010B07;
+			productRefGroup = 52CFBD0F18F1A86900010B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CFBD0D18F1A86900010B07 /* SchwizzleCalc */,
+				52CFBD2E18F1A86A00010B07 /* SchwizzleCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52CFBD0C18F1A86900010B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B6537718F5A1AE00AF6142 /* logo.png in Resources */,
+				52CFBD2A18F1A86A00010B07 /* Images.xcassets in Resources */,
+				52CFBD1C18F1A86A00010B07 /* InfoPlist.strings in Resources */,
+				52CFBD5218F1CB2F00010B07 /* README.txt in Resources */,
+				52CFBD2518F1A86A00010B07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CFBD2D18F1A86A00010B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CFBD3B18F1A86A00010B07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CFBD0A18F1A86900010B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CFBD2818F1A86A00010B07 /* SchwizzleCalcViewController.m in Sources */,
+				52CFBD1E18F1A86A00010B07 /* main.m in Sources */,
+				52B6538018F7733300AF6142 /* SchwizzleCalcTableViewController.m in Sources */,
+				52CFBD2218F1A86A00010B07 /* SchwizzleCalcAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CFBD2B18F1A86A00010B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CFBD3D18F1A86A00010B07 /* SchwizzleCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52CFBD3518F1A86A00010B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CFBD0D18F1A86900010B07 /* SchwizzleCalc */;
+			targetProxy = 52CFBD3418F1A86A00010B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52CFBD1A18F1A86A00010B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CFBD1B18F1A86A00010B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52CFBD2318F1A86A00010B07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CFBD2418F1A86A00010B07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52CFBD3918F1A86A00010B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CFBD3A18F1A86A00010B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52CFBD3E18F1A86A00010B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52CFBD3F18F1A86A00010B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CFBD4118F1A86A00010B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchwizzleCalc/SchwizzleCalc-Prefix.pch";
+				INFOPLIST_FILE = "SchwizzleCalc/SchwizzleCalc-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/epyon/Downloads/GoogleAdMobAdsSdkiOS-6.8.0",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52CFBD4218F1A86A00010B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchwizzleCalc/SchwizzleCalc-Prefix.pch";
+				INFOPLIST_FILE = "SchwizzleCalc/SchwizzleCalc-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/epyon/Downloads/GoogleAdMobAdsSdkiOS-6.8.0",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52CFBD4418F1A86A00010B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SchwizzleCalc.app/SchwizzleCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchwizzleCalc/SchwizzleCalc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SchwizzleCalcTests/SchwizzleCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52CFBD4518F1A86A00010B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SchwizzleCalc.app/SchwizzleCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchwizzleCalc/SchwizzleCalc-Prefix.pch";
+				INFOPLIST_FILE = "SchwizzleCalcTests/SchwizzleCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52CFBD0918F1A86900010B07 /* Build configuration list for PBXProject "SchwizzleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CFBD3E18F1A86A00010B07 /* Debug */,
+				52CFBD3F18F1A86A00010B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CFBD4018F1A86A00010B07 /* Build configuration list for PBXNativeTarget "SchwizzleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CFBD4118F1A86A00010B07 /* Debug */,
+				52CFBD4218F1A86A00010B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CFBD4318F1A86A00010B07 /* Build configuration list for PBXNativeTarget "SchwizzleCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CFBD4418F1A86A00010B07 /* Debug */,
+				52CFBD4518F1A86A00010B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52CFBD0618F1A86900010B07 /* Project object */;
+}
